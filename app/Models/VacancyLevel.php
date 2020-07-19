@@ -25,7 +25,7 @@ class VacancyLevel
         //     return '◎';
         // }
 
-        // リファクタリング
+        // 上記をリファクタリング
         if ($this->remainingCount < 5) {
             return '△';
         }
